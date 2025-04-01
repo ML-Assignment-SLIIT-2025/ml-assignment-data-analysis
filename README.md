@@ -46,3 +46,17 @@ This notebook performs exploratory data analysis (EDA) and preprocessing on the 
 Install dependencies:
 ```bash
 pip install numpy pandas matplotlib seaborn scikit-learn imbalanced-learn
+```
+
+## Usage
+1. Upload WA_Fn-UseC_-Telco-Customer-Churn.csv to your Google Colab environment.
+2. Run the notebook to generate X_preprocessed.csv and y_preprocessed.csv.
+3. Download these files for use in model notebooks or store them in the repository.
+
+## Outputs
+- Files: X_preprocessed.csv (resampled features), y_preprocessed.csv (resampled target).
+- Visualizations: Multiple plots showing churn patterns and data distributions.
+
+## Notes
+- This notebook must be run first to generate the preprocessed data the model notebooks require.
+- The EDA provides insights into churn drivers (e.g., month-to-month contracts, and high monthly charges).
